@@ -1,5 +1,3 @@
-<?php require("partials/routes.php"); ?>
-<?php require("partials/check_login.php"); ?>
 
 <!doctype html>
 <html lang="en">
