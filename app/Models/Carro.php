@@ -31,4 +31,8 @@ $mercedes->color = "Negro";
 $mercedes->marca = "Mercedes Benz";
 echo "Soy un ".$mercedes->marca." ".$mercedes->color."<br/>";
 
-//llamar a un método
+
+//Llamar a un metodo
+echo $bmw->saludar('Diego')."<br/>"; //Llamar a un metodo
+echo "Saludo: ".$bmw->marca." ".$bmw->saludar()."<br/>"; //Concatenar salida
+
